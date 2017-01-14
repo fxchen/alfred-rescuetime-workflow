@@ -8,16 +8,21 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
-		<key>27DAAAD5-7B92-4D18-BA41-DBCAAAAD6F67</key>
+		<key>1A1E9012-47EE-4913-849B-86DF5B86A601</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8773AFB0-2744-41BA-9834-EDF2AF85041F</string>
+				<string>7421BA10-E46A-41C8-B2C0-2971A4E6842E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
+		</array>
+		<key>27DAAAD5-7B92-4D18-BA41-DBCAAAAD6F67</key>
+		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>05FEC15D-4E5F-49DB-A5FD-27DC3F341C3F</string>
@@ -25,6 +30,21 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2E3C9BC1-77DF-498E-BEC2-D63E33E1C6F5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1A1E9012-47EE-4913-849B-86DF5B86A601</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>2FA1B3ED-8A15-45B6-B45E-9543F34A7CA3</key>
@@ -36,6 +56,21 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4F0E514A-81B2-49DC-B619-209B999BAFDA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>300B4089-FD07-4D7E-AB09-72FAB12AF31D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>9553E923-17BE-443E-8D20-EAC662499E6F</key>
@@ -47,6 +82,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>95D4D54C-C700-4616-A072-66F15D88F127</key>
@@ -58,36 +95,21 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Frank Chen</string>
 	<key>description</key>
-	<string>Workflow for defining my habits</string>
+	<string>A set of commands to open up Rescuetime to different dashboards and post highlights.</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>RescueTime Habits</string>
+	<string>RescueTime</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>plusspaces</key>
-				<false/>
-				<key>url</key>
-				<string>https://www.rescuetime.com/dashboard</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>3A714E51-369E-4404-841C-4C26772DCE13</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -95,6 +117,8 @@
 				<integer>2</integer>
 				<key>keyword</key>
 				<string>rt</string>
+				<key>subtext</key>
+				<string>Overview</string>
 				<key>text</key>
 				<string>RescueTime Dashboard</string>
 				<key>withspace</key>
@@ -105,34 +129,15 @@
 			<key>uid</key>
 			<string>95D4D54C-C700-4616-A072-66F15D88F127</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>rta</string>
-				<key>subtext</key>
-				<string>"more" for breakdown; "by hour" for productivity</string>
-				<key>text</key>
-				<string>RescueTime Dashboard extended</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>27DAAAD5-7B92-4D18-BA41-DBCAAAAD6F67</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>plusspaces</key>
-				<false/>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
 				<key>url</key>
 				<string>https://www.rescuetime.com/browse/goals/by/day</string>
 				<key>utf8</key>
@@ -143,7 +148,26 @@
 			<key>uid</key>
 			<string>8773AFB0-2744-41BA-9834-EDF2AF85041F</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://www.rescuetime.com/dashboard</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>3A714E51-369E-4404-841C-4C26772DCE13</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -164,13 +188,15 @@
 			<key>uid</key>
 			<string>9553E923-17BE-443E-8D20-EAC662499E6F</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
-				<false/>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
 				<key>url</key>
 				<string>https://www.rescuetime.com/browse/overview/by/rank</string>
 				<key>utf8</key>
@@ -181,7 +207,7 @@
 			<key>uid</key>
 			<string>05FEC15D-4E5F-49DB-A5FD-27DC3F341C3F</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -202,7 +228,155 @@
 			<key>uid</key>
 			<string>2FA1B3ED-8A15-45B6-B45E-9543F34A7CA3</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>rtc</string>
+				<key>subtext</key>
+				<string>Overview by Category</string>
+				<key>text</key>
+				<string>RescueTime Dashboard</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>27DAAAD5-7B92-4D18-BA41-DBCAAAAD6F67</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Created RescueTime Daily Highlight</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>7421BA10-E46A-41C8-B2C0-2971A4E6842E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>
+nv="$(date +'%Y-%m-%d')"
+
+# "$(gdate +'%Y-%m-%d')"
+
+open "https://www.rescuetime.com/browse/overview/by/hour/for/the/day/of/$nv"
+
+</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>300B4089-FD07-4D7E-AB09-72FAB12AF31D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string># Create your RescueTime API key at
+# https://www.rescuetime.com/anapi/manage
+# and replace &lt;RESCUETIME_KEY&gt; below with it
+
+API_KEY="&lt;RESCUETIME_KEY&gt;"
+
+the_date=`date +%Y-%m-%d`
+description="{query}"
+
+out=`curl --data "key=$API_KEY&amp;highlight_date=$the_date&amp;description=$description" https://www.rescuetime.com/anapi/highlights_post`
+
+echo "$description"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>1A1E9012-47EE-4913-849B-86DF5B86A601</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>rtt</string>
+				<key>subtext</key>
+				<string>Overview by Hour</string>
+				<key>text</key>
+				<string>RescueTime Dashboard</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4F0E514A-81B2-49DC-B619-209B999BAFDA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>rth</string>
+				<key>subtext</key>
+				<string>Add Daily Highlight to RescueTime</string>
+				<key>text</key>
+				<string>RescueTime Highlight</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>2E3C9BC1-77DF-498E-BEC2-D63E33E1C6F5</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -211,38 +385,87 @@
 	<dict>
 		<key>05FEC15D-4E5F-49DB-A5FD-27DC3F341C3F</key>
 		<dict>
+			<key>xpos</key>
+			<integer>260</integer>
 			<key>ypos</key>
-			<real>270</real>
+			<integer>160</integer>
+		</dict>
+		<key>1A1E9012-47EE-4913-849B-86DF5B86A601</key>
+		<dict>
+			<key>xpos</key>
+			<integer>630</integer>
+			<key>ypos</key>
+			<integer>290</integer>
 		</dict>
 		<key>27DAAAD5-7B92-4D18-BA41-DBCAAAAD6F67</key>
 		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
 			<key>ypos</key>
-			<real>130</real>
+			<integer>160</integer>
+		</dict>
+		<key>2E3C9BC1-77DF-498E-BEC2-D63E33E1C6F5</key>
+		<dict>
+			<key>xpos</key>
+			<integer>440</integer>
+			<key>ypos</key>
+			<integer>290</integer>
 		</dict>
 		<key>2FA1B3ED-8A15-45B6-B45E-9543F34A7CA3</key>
 		<dict>
+			<key>xpos</key>
+			<integer>440</integer>
 			<key>ypos</key>
-			<real>380</real>
+			<integer>160</integer>
+		</dict>
+		<key>300B4089-FD07-4D7E-AB09-72FAB12AF31D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>260</integer>
+			<key>ypos</key>
+			<integer>290</integer>
 		</dict>
 		<key>3A714E51-369E-4404-841C-4C26772DCE13</key>
 		<dict>
+			<key>xpos</key>
+			<integer>260</integer>
 			<key>ypos</key>
-			<real>10</real>
+			<integer>30</integer>
+		</dict>
+		<key>4F0E514A-81B2-49DC-B619-209B999BAFDA</key>
+		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>290</integer>
+		</dict>
+		<key>7421BA10-E46A-41C8-B2C0-2971A4E6842E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>810</integer>
+			<key>ypos</key>
+			<integer>290</integer>
 		</dict>
 		<key>8773AFB0-2744-41BA-9834-EDF2AF85041F</key>
 		<dict>
+			<key>xpos</key>
+			<integer>640</integer>
 			<key>ypos</key>
-			<real>130</real>
+			<integer>30</integer>
 		</dict>
 		<key>9553E923-17BE-443E-8D20-EAC662499E6F</key>
 		<dict>
+			<key>xpos</key>
+			<integer>440</integer>
 			<key>ypos</key>
-			<real>260</real>
+			<integer>30</integer>
 		</dict>
 		<key>95D4D54C-C700-4616-A072-66F15D88F127</key>
 		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
 			<key>ypos</key>
-			<real>10</real>
+			<integer>30</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
